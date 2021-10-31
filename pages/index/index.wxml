@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+    <image src="../../logo1.png" ></image>
+    <view class="message">拍花即识，发现更多可能！</view>
+    <view class='mainButton'>
+        <button bindtap="goToCamera" class='button1' ><icon class='iconfont icon-photo'></icon> 拍照识花 </button>
+        <button bindtap="uploadImg" size='mini' class='button2' style="border: none; font-size: 4.5vw; position: relative; left: 0rpx; top: -13rpx"> 上传图片> </button>
+    </view>
+    <!-- <image src="{{thisImg}}"></image> -->
+    <!-- <text >{{runResult}}</text>
+        <image  bindtap="clickImg" src="{{returnImg}}"></image> -->
+    <!-- <view class="usermotto"> -->
+    <!-- <text class="user-motto">{{motto}}</text> -->
+    <!-- </view> -->
+</view>

@@ -1,0 +1,12 @@
+<!--pages/camera/camera.wxml-->
+<view class="container">
+  <icon class='iconfont iconhua'></icon>
+<!-- <cover-view style="text">正在识别...</cover-view> -->
+  <camera style="height:82.5vh"></camera>
+
+  <view class='mainButton'>
+    <progress wx:if="{{isShow}}" percent="{{percent}}" color="#10AEFF" show-info active stroke-width="3" />
+    <button style="margin-top: {{mHeight}}; position: relative; left: 2rpx; top: -4rpx" bindtap="takePhoto" hover-class="button1-hover" class='button1'>
+    </button>
+  </view>
+</view>

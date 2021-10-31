@@ -1,0 +1,7 @@
+
+<web-view src="{{ src }}"></web-view>
+
+
+  <!-- <iframe name="topFrame" scrolling="auto" border="1" src="http://www.baidu.com" height="300px" width="100%">
+        如果你看到该文字，说明该浏览器不支持iframe
+  </iframe> -->

@@ -1,0 +1,31 @@
+<!--pages/result/result.wxml-->
+<!-- <view class="container1" style="{{list.length == 1 ? 'height:95vh':'height:100%'}}"> -->
+<view class="container1" >
+	<image class="aa" src="{{img1}}"></image>
+	<view class="container2">
+		<image class="flowerimg1" src="{{img1}}"></image>
+	<!-- <block wx:for="{{list}}" wx:key="index"> -->
+		<view class="card" bindtap="" id="{{index}}">
+			<!-- <image mode="widthFix" style="padding:2px;width:50vw;" src="{{item.img}}"> -->
+			<!-- </image> -->
+			<!-- <view class="introduce1"> -->
+			<image class="flowerimg2" src="{{img2}}"></image>
+			<view class="img_message" >
+				<view class="img_message1">{{name}}</view>
+				<view class="img_message2" bindtap="gotointroduce">查看更多介绍</view>
+			</view>
+			<!-- <text style="font-size:15px">{{kes}}</text> -->
+			<!-- <text style="font-size:15px">{{kes}}</text> -->
+			<!-- 	<text style="font-size:10px;margin-top: 2vh;">点击查看更多介绍</text> -->
+			<!-- </view> -->
+		</view>
+	<!-- </block> -->
+	<!-- <view wx:if="{{isShow}}" bindtap="onClickMore"
+		style="border-radius: 10rpx;margin-top:4vh;border: 1px solid #a296e5;padding: 2px;">
+		<button style="" hover-class="button1-hover" class='button1'>
+			更多介绍
+		</button>
+	</view> -->
+	</view>
+</view>
+<!-- <text wx:if="{{list.length == 0}}" class="iconfont">识别失败</text> -->
